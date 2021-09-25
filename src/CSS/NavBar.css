@@ -1,0 +1,27 @@
+#navBar{
+    width: 100vw;
+    height: 13vh;
+    border-bottom: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navBar a{
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    width: 30vw;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5vw;
+}
+#navBar a p{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 1vw;
+}
+#navBar a:hover{
+    opacity: 0.5;
+}

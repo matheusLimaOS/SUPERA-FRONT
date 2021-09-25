@@ -1,0 +1,37 @@
+#footer{
+    width: 100vw;
+    height: 7vh;
+    border-top: black 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer h2{
+    margin-left: 2vw;
+    display: flex;
+    justify-self: flex-start;
+}
+#footer h2 span{
+    opacity: 0.5;
+    margin-left: 0.5vw;
+}
+.social h2{
+    width: 11vw;
+}
+.social{
+    height: 5vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social a svg{
+    height: 6vh;
+    width: 6vw;
+}
+.social a{
+    color: black;
+}
+.social a:hover{
+    opacity: 0.3;
+}

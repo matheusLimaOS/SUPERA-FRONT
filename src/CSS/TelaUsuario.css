@@ -1,0 +1,31 @@
+
+#conteudo{
+    height: 79.7vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#cardUsuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 79.7vh;
+    width: 40vw;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+}
+#cardUsuario .selection,.newFunc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formCPF{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.align{
+    align-self: flex-start;
+}

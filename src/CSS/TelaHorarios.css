@@ -1,0 +1,21 @@
+#cardHorarios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 79.7vh;
+    width:60vw;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+}
+.titleHorarios{
+    margin: 4vh 0vh;
+}
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td {
+    text-align: center;
+    justify-content: center;
+    padding: 4px 4px;
+}
+.button{
+    margin-bottom: 8vh;
+}
